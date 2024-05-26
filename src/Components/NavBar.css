@@ -1,0 +1,72 @@
+
+
+.navbar{
+    background-color: transparent !important;
+
+ }
+
+ .navbar-nav .nav-item a {
+    text-decoration: none !important;
+    margin: 25px !important;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.navbarcontent{
+    background: rgb(204, 162, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(204, 162, 75, 1) 13%,
+    rgba(43, 167, 144, 1) 67%
+  );
+}
+
+.NavBar:hover{
+    background-color: #B3A357;
+    border-radius: 10px;
+}
+
+.navbar-collapse{
+    margin-left: 400px;
+}
+
+.header{
+    margin-left: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header{
+        margin-left: 10px;
+        margin-right: 30%;
+    }
+
+    .navbar-collapse{
+        margin-left: 300px;
+    }
+    
+       
+   }
+ 
+   @media only screen and (max-width: 800px) {
+    .header{
+        margin-left: 10px;
+        margin-right: 30%;
+    }
+    
+    }
+   @media only screen and (max-width: 600px) {
+    .header{
+        margin-left: 10px;
+        margin-right: 30%;
+    }
+    
+   }
+ @media only screen and (max-width: 450px) {
+    .header{
+        margin-left: 10px;
+        margin-right: 50%;
+    }
+    
+     
+ }

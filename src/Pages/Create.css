@@ -1,0 +1,80 @@
+.totalcontent {
+  display: flex;
+  justify-content: center;
+  background: rgb(204, 162, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(204, 162, 75, 1) 13%,
+    rgba(43, 167, 144, 1) 67%
+  );
+}
+
+.totaleditcontent{
+  background: rgb(204, 162, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(204, 162, 75, 1) 13%,
+    rgba(43, 167, 144, 1) 67%
+  );
+  display: flex;
+  justify-content: center;
+
+}
+
+.editcontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:25px;
+  margin-bottom: 25px;
+  padding: 25px;
+  border: 3px solid rosybrown;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.create {
+  border: 3px solid rosybrown;
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 25px;
+  align-items: center;
+}
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+p input {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn{
+    color: white !important;
+    background-color: #CCA24B !important;
+}
+
+.btn-success{
+  background-color: green !important;
+  margin: 10px;
+}
+
+.btn-primary{
+  background-color: #1075ED !important;
+}
+
+.btn-danger{
+  background-color: red !important;
+}
+
+.card{
+  background-color: transparent;
+  margin: 20px;
+  border: 1px solid;
+}
